@@ -43,6 +43,8 @@
 <hr>
 <h3>PROGRAM</h3>
 ```python
+```
+
 def move_left(self):
     # Move the agent to the left if possible
     if self.location == "B":
@@ -79,4 +81,3 @@ def perform_action(self, action):
 def print_status(self):
     # Print the current status of the agent
     print(f"Location: {self.location}, Dirt Status: {self.dirt_status}")
-```
